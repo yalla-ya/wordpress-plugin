@@ -132,8 +132,8 @@ function mg_smtp_mail_filter(array $args)
         $from_name = null;
     }
 
-    if (!isset($from_email)) {
-        $from_email = null;
+    if (!isset($from_addr)) {
+        $from_addr = null;
     }
 
     $from_name = mg_detect_from_name($from_name);
